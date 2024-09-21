@@ -1,0 +1,19 @@
+body {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: rgb(255, 250, 205);
+}
+
+header {
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-header {
+    width: 10%;
+}
