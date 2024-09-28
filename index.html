@@ -5,48 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>padaria</title>
-    
+
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
     <header>
         <img src="img/logo.png" alt="Pão, Pão na chapa, Logo, Logo Padaria" srcset="" class="logo-header">
-        
 
-        <nav>
+
+        <nav class="menu">
             <ul>
                 <li>
-                    <a>inicio</a>
+                    <a href="#introducao">inicio</a>
                 </li>
                 <li>
-                    <a>Sobre</a>
+                    <a href="#sobre-nos">Sobre</a>
                 </li>
                 <li>
-                    <a>Produtos</a>
+                    <a href="#produtos">Produtos</a>
                 </li>
                 <li>
-                    <a>Contato</a>
+                    <a href="#contato">Contato</a>
                 </li>
             </ul>
         </nav>
 
     </header>
     <main>
-        <section>
-            <h2>
-                Bem Vindo!, a Padaria Pão na Chapaa
-            </h2>
-            <p>
-                Na Padaria pão na chapa oferecemos o melhor pão caseiro, assado diariamente com ingredientes frescos
-                e de alta qualidade. aqui você encontra aquele pão quentinho, crocante por fora e macio por dentro, além
-                de uma variedade deliciosa
-                de produtos"!!"
+        <section id="introducao">
+            <div>
 
-            </p>
+                <h2>
+                    Bem Vindo!, a Padaria Pão na Chapa
+                </h2>
+                <p>
+                    Na Padaria pão na chapa oferecemos o melhor pão caseiro, assado diariamente com ingredientes frescos
+                    e de alta qualidade. aqui você encontra aquele pão quentinho, crocante por fora e macio por dentro,
+                    além
+                    de uma variedade deliciosa
+                    de produtos!
+
+                </p>
+            </div>
+            <div>
+                <img width="300px" src="./img/pao.png" alt="pão na cesta">
+            </div>
+
         </section>
-        <section>
+
+        <section id="sobre-nos">
             <h2>
                 sobre nós
             </h2>
@@ -55,16 +68,19 @@
                 atendindimento amigavél.
                 Nosso objetivo e proporcionar uma expêriencia acolhedora e saborosa
                 para todos os nossos clientes,
-                seja para aquele café da manhã especial ou para o lanche da tarde."!!"
+                seja para aquele café da manhã especial ou para o lanche da tarde.
             </p>
         </section>
-        <section>
+
+        <section id="produtos">
             <h2>
-                Nosso Produto"!!"
+                Nossos Produto!
             </h2>
 
-            <div>
-                <div>
+
+            <div class="conteudo-produtos">
+
+                <div class="produtos">
                     <h3>Pães</h3>
                     <p>
                         Temos uma variedade de pães, como pão francês,pão de forma, baguetes e muito mais.
@@ -72,14 +88,14 @@
                 </div>
 
 
-                <div>
+                <div class="produtos">
                     <h3>Bolos</h3>
                     <p>
                         Oferecemos bolos fresquinhos, tortas e uma seleção de doces como sonhos, brigadeiros e brownies.
                     </p>
                 </div>
 
-                <div>
+                <div class="produtos">
                     <h3>Salgados</h3>
                     <p>
                         Seja para um lanche rápido ou uma festa, nossos Salgados são fritos na hora, com opçoes como
@@ -90,14 +106,14 @@
         </section>
     </main>
     <footer>
-        <section>
+        <section id="contato">
             <h2>Contato</h2>
             <p>Telefone: (11) 1234-5678</p>
             <p>Email: aleatoriokk@gmail.com</p>
             <p>endereço: rua do pão na chapa, 123 é em sp!</p>
         </section>
-        <p>&copy; 2024 - padaria pão na chapa -
-            Todos Diretos Rservados</p>
+        <p class="direitos-autorais">&copy; 2024 - padaria pão na chapa -
+            Todos Diretos Reservados</p>
     </footer>
     </main>
 </body>
